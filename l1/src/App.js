@@ -1,9 +1,12 @@
 
-
+import Myfile from './Myfile'
 
 function App() {
   return (
-    <h1>hello word </h1>
+    <>
+    <Myfile />
+    <h1></h1>
+    </>
   );
 }
 

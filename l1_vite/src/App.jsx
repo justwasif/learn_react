@@ -1,18 +1,14 @@
-
-
-import myfile from"./myfile"
-
+import Myfil from "./Myfil";
 
 function App() {
-
-
+  const username="ye andar";
   return (
-    <myfile>
-    <h1>yoo</h1>
+    
+    <>
+    <h1>ye {username}</h1>
   
-     
-  
-  )
+    </>
+  );
 }
 
-export default App
+export default App;
