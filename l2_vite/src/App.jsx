@@ -15,7 +15,7 @@ function App() {
       setcount(count)
     }
     else if(count==20){
-      setmessege("max limit has been reach so it reset to ")
+      setmessege("max limit has been reach so it reset to 0")
       setcount(0)
     }
     // else if(count==20){
